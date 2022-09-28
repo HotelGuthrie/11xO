@@ -1,0 +1,30 @@
+.myDiv {
+  
+    background-color: rgb(0, 0, 0);    
+    text-align: center;
+    
+
+  }
+
+  .container {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    outline: dashed 1px black;
+  }
+
+  body {
+    background-color: rgb(0, 0, 0);   
+
+  }
+
+  img {
+    display: block;
+    align-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+ 
