@@ -2,7 +2,11 @@
   
     background-color: rgb(0, 0, 0);    
     text-align: center;
-    
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  width: 100%;
+  top: 25%;
 
   }
 
@@ -12,7 +16,9 @@
     margin: 25px;
     width: 350px;
     height: 200px;
-    outline: dashed 1px black;
+    outline: dashed 1px rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
   }
 
   body {
@@ -24,7 +30,10 @@
     display: block;
     align-content: center;
     width: 100%;
-    height: auto;
+
+    align-items: center;
+    justify-content: center;
+
   }
 
  
