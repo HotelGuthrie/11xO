@@ -7,6 +7,9 @@
     position: absolute;
   width: 100%;
   top: 25%;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
   
 
   }
@@ -23,7 +26,10 @@
     
     display: flex;
     position: absolute;
-    text-align: ;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   .container2 {
@@ -62,9 +68,10 @@
   padding-right: 30px ;
   align-items: center;
   justify-content: right;
-  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  text-shadow:1px 1px 1px #fff, 1px 1px 10px #ccc;
 font-size: large;
 position: relative;
+font-family: 'Courier New', Courier, monospace;
 
     
 
