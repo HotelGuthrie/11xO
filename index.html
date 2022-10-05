@@ -8,7 +8,20 @@
 </style>
 <script>  
     function fun() {  
-    alert("updat this area to send to dynamoDB");  
+    alert("updat this area to send to dynamoDB")
+    fetch('https://h2hukjth21.execute-api.us-east-1.amazonaws.com/api/tasks', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                item: "0",
+                "Email": email,
+                
+            }, null, '\t')
+
+        });  
     }  
 </script> 
 </head>
