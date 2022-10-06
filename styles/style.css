@@ -1,88 +1,93 @@
 .Div {
-  
-    background-color: rgb(0, 0, 0);    
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
   width: 100%;
-  top: 15%;
+  padding-top: 100px;
+
   text-decoration: none;
   color: #fff;
   font-family: 'Courier New', Courier, monospace;
-  
 
-  }
 
-  .container {
-    font-family: arial;
-    font-size: 24px;
-    margin: 25px;
-    width: 350px;
-    height: 600px;
-   
-    vertical-align: bottom;
-    justify-content: center;
-    
-    display: flex;
-    position: absolute;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-  }
 
-  .container2 {
-    display: flex;
-    height: 100vh;
-    background-size: 50% 100%;
-  }
-  
-  body {
-    background-color: rgb(0, 0, 0); 
-    box-sizing: border-box;
+}
+
+form {
+  padding-bottom: 200px;
+
+}
+
+.container {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 600px;
+
+  vertical-align: bottom;
+  justify-content: center;
+
+  display: flex;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container2 {
+  display: flex;
+  height: 100vh;
+  background-size: 50% 100%;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
   padding: 0;
-  margin: 0;  
+  margin: 0;
 
-  }
+}
 
-  img {
-    display: block;
-    align-content: center;
-    width: 100%;
+img {
+  display: block;
+  align-content: center;
+  width: 100%;
 
-    align-items: center;
-    justify-content: center;
-    
+  align-items: center;
+  justify-content: center;
 
-  }
 
-  .salon_img {
-    background-image: url('/images/salon_bg_image.jpg');
-    background-repeat: no-repeat;
-    background-size: 65% 100%;
-    background-color: aliceblue;
-   text-align: left;
+}
+
+.salon_img {
+  background-image: url('/images/salon_bg_image.jpg');
+  background-repeat: no-repeat;
+  background-size: 65% 100%;
+  background-color: aliceblue;
+  text-align: left;
   width: 100%;
   display: flex;
-  padding-right: 30px ;
+  padding-right: 30px;
   align-items: center;
   justify-content: right;
-  text-shadow:1px 1px 1px #fff, 1px 1px 10px #ccc;
-font-size: large;
-position: relative;
-font-family: 'Courier New', Courier, monospace;
+  text-shadow: 1px 1px 1px #fff, 1px 1px 10px #ccc;
+  font-size: large;
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
 
-    
 
-  }
 
-  .img_container {
-    background-image: url('/images/salon_bg_image.jpg');
-  }
+}
 
-  .link {
-    align-items: ;
-  }
+.img_container {
+  background-image: url('/images/salon_bg_image.jpg');
+}
 
- 
+.link {
+  align-items: ;
+}
