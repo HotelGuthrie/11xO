@@ -40,13 +40,28 @@
             }
             fetch('https://fitgq78r26.execute-api.us-east-2.amazonaws.com/test1/one', options);
             console.log(options);
-            window.location.reload()
+
         }
     </script>
     <script>
         function fun2() {
             console.log("helooo");
         }
+    </script>
+    <script type="test/javascript">
+        var opacity = 0;
+        var intervalID = 0;
+        function fadeOut() {
+            var element = document.getElementById("fade");
+            intervalID = setInterval(hide, 20);
+        }
+        function   hide() {
+            var img document.getElementById("img1");
+            opacity = number( window.getComputedStyle(img).getPropertyValue("opacity"));
+            }
+        }
+
+
     </script>
 
 </head>
@@ -59,7 +74,7 @@
     </form>
 -->
 
-
+    <img style="opacity: 1;" class="form" id="img1" src="images/success_2.png" alt="success_message" width="250px">
 
     <div class="Div">
 

@@ -37,12 +37,16 @@ form {
   text-decoration: none;
   color: black;
   font-family: 'Courier New', Courier, monospace;
+  text-shadow: 1px 1px 1px #fff, 1px 1px 2px rgb(0, 0, 0);
 }
+
+
 
 .container2 {
   display: flex;
   height: 100vh;
   background-size: 50% 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -75,13 +79,27 @@ img {
   padding-right: 30px;
   align-items: center;
   justify-content: right;
-  text-shadow: 1px 1px 1px #fff, 1px 1px 10px #ccc;
+  text-shadow: 1px 1px 1px #fff, 1px 1px 5px rgb(248, 215, 154);
   font-size: large;
   position: relative;
   font-family: 'Courier New', Courier, monospace;
+  padding-right: 100px;
 
 
+}
 
+h3 {
+  padding: 0%;
+  margin: -10px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 1px 1px 1px rgb(187, 216, 252), 1px 1px 2px rgb(0, 0, 0);
+}
+
+h2 {
+  padding: 0%;
+  margin: -10px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 1px 1px 1px rgb(235, 166, 123), 1px 1px 2px rgb(0, 0, 0);
 }
 
 .img_container {
