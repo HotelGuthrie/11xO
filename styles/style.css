@@ -4,10 +4,9 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: static;
   width: 100%;
   padding-top: 100px;
-
   text-decoration: none;
   color: #fff;
   font-family: 'Courier New', Courier, monospace;
@@ -15,6 +14,8 @@
 
 
 }
+
+
 
 form {
   padding-bottom: 200px;
