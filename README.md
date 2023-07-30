@@ -2,4 +2,4 @@
 
 - landing page for 11xO website.
 - Includes email subscription ability.
-- Links to project Salon Der Limbo.
+- Links to project Salon Der Limbo and NONGJAE
